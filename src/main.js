@@ -47,9 +47,6 @@ export async function createProject(options) {
    process.exit(1);
  }
 
- //console.log('Copy project files');
- //await copyTemplateFiles(options);
-
  const tasks = new Listr([
     {
       title: 'Copy project files',
